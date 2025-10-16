@@ -230,15 +230,24 @@ footer {
 .boy{
   display: flex;
   justify-content: center;
-  font-size: 2em;
-  font-weight: 700;
+  font-size: 1.8em;
+  font-weight: 600;
+  padding: 10px;
+
 }
                 
 .boys{
   font-size: 1em;
   padding: 4px;
-
   border: none;
+  border-radius: 10%;
+
+} 
+.boy :hover{
+  color: aqua;
+}
+.boys :hover{
+  color: aqua;
 }
 
 
