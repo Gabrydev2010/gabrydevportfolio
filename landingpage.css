@@ -7,6 +7,8 @@
 
 body {
   background-color: black;
+  overflow: hidden;
+  overflow-x: hidden;
 }
 h4{
   font-size: 50px;
@@ -18,7 +20,8 @@ h4{
   justify-content: center;
   display: wuflex;
    background-color: aqua;
-  border-radius: 20px;  
+  border-radius: 20px; 
+  overflow: hidden; 
 }
 .good{
   backdrop-filter: blur(6px);
@@ -27,28 +30,34 @@ h4{
   padding: 10px;
   position: fixed;
   width: 100%;
+  overflow: hidden;
 }
 .good h2{
   color: aqua;
+  overflow: hidden;
 }
 .game{
   display: flex;
   gap: 2em;
   list-style-type: none;
+  overflow: hidden;
 }
 .game li a{
   color: white;
   text-decoration: none;
   font-size: 2em;
+  overflow: hidden;
 }
 .game :hover{
   color: aqua;
   text-decoration: underline;
+  overflow: hidden;
 }
 section {
   padding: 3rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 
@@ -369,10 +378,12 @@ footer {
 }
 .bobo{
   font-size: 1em;
+  color: #fff;
   
 }
 .precious{
   font-size: 1em;
+  color: #fff;
 }
 .fa-x-twitter{
 font-size: 2em;
@@ -395,6 +406,11 @@ color: white;
   display: flex;
 align-items: center;
 justify-content: center;
+}
+@media (max-width:360px) {
+  .about{
+    font-size: .8em;
+  }
 }
 
 
